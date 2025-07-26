@@ -8,10 +8,47 @@
 		<link rel="stylesheet" href="Copy of Bank Statement stylesheet.css" />
 	</head>
 	<body>
-		<p>Hi :3</p>
-		<p>another msg xd</p>
-		<p>another one last one promise lel</p>
-		<p>or not</p>
-		<p>yes</p>
+		<header>
+			<img id="logo" src="https://img.favpng.com/2/14/9/nationwide-mutual-insurance-company-nationwide-building-society-logo-finance-png-favpng-rcD8AyAtW2Sfx0ffrxbYus63a.jpg">
+			<p id="logo1">Your FlexAccount</p>
+		</header>
+
+		<main>
+			<section class="details">
+				<p id="id-number"">0694</p>
+				<p>Mr D A Bubutanu</p>
+				<p>174 Long Ley</p>
+				<p>Essex</p>
+				<p>HARLOW</p>
+				<p>CM20 3NW</p>
+			</section>
+
+			<table>
+				<!--<caption>
+					<img src="https://wumbo.net/symbols/pound-sign/feature.png" alt="Pound  symbol">
+					<div class="flexi">
+						<span>Your FlexAccount</span>transactions
+					</div>
+				</caption>-->
+
+				<thead>
+					<tr>
+						<td>Date</td>
+						<th>Description</td>
+						<th>£ Out</td>
+						<th>£ In</td>
+						<th>Balance</td>
+					</tr>
+				</thead>
+
+				<caption>
+					<img src="https://wumbo.net/symbols/pound-sign/feature.png" alt="Pound  symbol">
+					<div class="flexi">
+						<span>Your FlexAccount</span>transactions
+					</div>
+				</caption>
+			</table>
+
+		</main>
 	</body>
 </html>
