@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="description" content="A Copy of a Bank Statement" />
 		<title>Bank Statement</title>
-		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="Copy of Bank Statement stylesheet.css" />
 	</head>
 	<body>
         <p>Hi :3</p>
