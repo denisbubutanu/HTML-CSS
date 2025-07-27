@@ -61,12 +61,17 @@ table {
 }
 
 .table {
-    border: 2px solid black;
+    padding-right: 43px;
+    padding-bottom: 43px;
+    padding-top: 40px;
+    outline: 2px solid black;
+    outline-offset: -37px;
 }
 
 html {
-    max-width: 850px;
-    min-width: 850px;
+    max-width: 900px;
+    min-width: 900px;
+    font-size: 90%;
 }
 
 .flex {
@@ -79,5 +84,176 @@ main {
 }
 
 .information {
-    margin-left: 80px;
+    margin-left: 10px;
+}
+
+.dark-blue-box {
+    background-color: #131054;
+    color: white;
+}
+
+.blue-box {
+    background-color: #E6E6FA;
+}
+
+.multiple-lines {
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    padding: 3px;
+}
+
+#seven-may-top {
+    position: relative;
+    top: -11px;
+}
+
+#eight-may-top {
+    position: relative;
+    top: -19px;
+}
+
+#ten-may-top {
+    position: relative;
+    top: -34px;
+    left: 31px;
+}
+
+#ten-may-bottom {
+    position: relative;
+    top: 11px;
+}
+
+#fourteen-may-top {
+    position: relative;
+    top: -11px;
+}
+
+#sixteen-may-top {
+    position: relative;
+    top: -23px;
+    left: 39px;
+}
+
+#sixteen-may-bottom {
+    position: relative;
+    top: 23px;
+    left: 1px;
+}
+
+#seventeen-may-top {
+    position: relative;
+    top: -22px;
+}
+
+#seventeen-may-bottom {
+    position: relative;
+    top: 24px;
+}
+
+#nineteen-may-top {
+    position: relative;
+    top: -23px;
+}
+
+#twentyone-may-top {
+    position: relative;
+    top: -11px;
+}
+
+#twentyeight-may-top {
+    position: relative;
+    top: -33px;
+}
+
+#twentyeight-may-bottom {
+    position: relative;
+    top: 10px;
+}
+
+#twentynine-may-top {
+    position: relative;
+    top: -12px;
+}
+
+#thirty-may-top {
+    position: relative;
+    top: -22px;
+    left: 31px;
+}
+
+#thirty-may-bottom {
+    position: relative;
+}
+
+#year {
+    text-align: left;
+}
+
+
+tr td:nth-child(3) {
+    text-align: right;
+}
+
+tr td:nth-child(4) {
+    text-align: right;
+}
+
+tr td:nth-child(5) {
+    text-align: right;
+}
+
+th {
+    vertical-align: top;
+    font-weight: lighter;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-left: 3px;
+}
+
+thead td {
+    padding-left: 5px;
+}
+
+tbody tr td:last-of-type {
+    display: inline-block;
+    position: relative; 
+    left: 45px;
+
+}
+
+tr th:first-of-type {
+    text-align: left;
+}
+
+thead tr th:nth-child(3) {
+    width: 70px;
+    height: 10px;
+}
+
+thead tr th:nth-child(4) {
+    width: 70px;
+    height: 10px;
+}
+
+thead tr th:nth-child(5) {
+    width: 90px;
+    height: 10px;
+}
+
+thead tr td span {
+    position: relative;
+    bottom: -2px;
+}
+
+#move-down {
+    position: relative;
+    top: 43px;
+}
+
+#move-down1 {
+    position: relative;
+    top: 22px;
 }
