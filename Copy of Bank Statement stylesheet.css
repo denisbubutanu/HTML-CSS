@@ -64,8 +64,6 @@ table {
     padding-right: 43px;
     padding-bottom: 43px;
     padding-top: 40px;
-    outline: 2px solid black;
-    outline-offset: -37px;
 }
 
 html {
@@ -256,4 +254,17 @@ thead tr td span {
 #move-down1 {
     position: relative;
     top: 22px;
+}
+
+path {
+    stroke: black;
+    stroke-width: 0.2;
+    fill: none;
+}
+
+svg {
+    position: absolute;
+    top: 10;
+    left: 10;
+    z-index: 0;
 }
