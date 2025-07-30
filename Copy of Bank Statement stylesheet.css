@@ -42,7 +42,7 @@ header {
 
 table {
     margin-left: 40px;
-    margin-top: 90px;
+    margin-top: 85px;
 }
 
 .caption img {
@@ -58,12 +58,13 @@ table {
     margin-bottom: -60px;
     justify-content: space-between;
     margin-right: 30px;
+    margin-top: 30px;
 }
 
 .table {
     padding-right: 43px;
     padding-bottom: 43px;
-    padding-top: 40px;
+    padding-top: 10px;
 }
 
 html {
@@ -258,13 +259,42 @@ thead tr td span {
 
 path {
     stroke: black;
-    stroke-width: 0.2;
+    stroke-width: 0.08;
     fill: none;
 }
 
-svg {
+.custom-border {
     position: absolute;
-    top: 10;
-    left: 10;
-    z-index: 0;
+}
+
+.table {
+    position: relative;
+}
+
+.right-of-table p {
+border-bottom: 1.5px solid black;
+margin-bottom: -8px;
+display: flex;
+justify-content: space-between;
+}
+
+.right-of-table {
+    position: relative;
+    left: 40px;
+    bottom: 8px;
+    padding-left: 7px;
+    padding-right: 7px;
+    width: 52%;
+}
+
+.right-of-table::before {
+    content: "";
+    position: absolute;
+    height: 70%;
+    width: 97%;
+    top: 11px;
+    left: 5px;
+    z-index: -1;
+    background-color: #E6E6FA;
+    border-radius: 10px;
 }
