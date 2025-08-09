@@ -1,0 +1,1 @@
+This is my Copy of a Bank Statement folder where I will be storing my HTML and CSS code for a (fake) Bank Statement. This was a very simple task here only to get me acquainted with VSCode and GitHub. 
