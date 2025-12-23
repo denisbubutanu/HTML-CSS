@@ -1,6 +1,5 @@
 /* Used display: flex below for the header to separate the <p> and <img> 
-elements to other sides of the page. */
-
+elements to other sides of the page */
 header {
     display: flex;
     justify-content: space-between;
@@ -36,8 +35,7 @@ header {
 }
 
 /* Used display: flex below to separate the text "Your FlexAccount" from "transactions"
-on different lines. */
-
+on different lines */
 .flexi {
     display: flex;
     flex-direction: column;
@@ -102,8 +100,7 @@ main {
 /* Used display: flex below to better separate text and monetary values.
 Wanted it to look as similar to a real Nationwide
 bank statement as possible. Many of the following adjustments 
-will have been made to that end. */
-
+will have been made towards proper alignment */
 .multiple-lines {
     display: flex;
     flex-direction: column;
@@ -292,8 +289,7 @@ margin-bottom: -8px;
 }
 
 /* Below code positions the section to the right of the table such that it also 
-blends in nicely with the information section. */
-
+blends in nicely with the information section */
 .right-of-table {
     position: relative;
     left: 47px;
@@ -304,7 +300,6 @@ blends in nicely with the information section. */
 }
 
 /* Below code deals with the background of the "right-of-table" class. */
-
 .right-of-table::before {
     content: "";
     position: absolute;
@@ -333,8 +328,7 @@ blends in nicely with the information section. */
     flex-direction: column;
 }
 
-/* Below code deals with the background of the "balance-details" class. */
-
+/* Below code deals with the background of the "balance-details" class */
 .balance-details::before {
     content: "";
     position: absolute;
@@ -353,8 +347,7 @@ blends in nicely with the information section. */
 
 /* The following few lines of code ensure the spacing between
 numbers and text is good as well as adding black bars beween 
-lines and emboldening some text. */
-
+lines and emboldening some text */
 .balance-details p {
     display: flex;
     justify-content: space-between;
@@ -424,8 +417,7 @@ lines and emboldening some text. */
     margin-bottom: -10px;
 }
 
-/* Deals with the background of the "more-info" class. */
-
+/* Deals with the background of the "more-info" class */
 .more-info::before {
     content: "";
     position: absolute;
@@ -460,8 +452,7 @@ lines and emboldening some text. */
     margin-left: -25px
 }
 
-/* Deals with the background of the "changes" class. */
-
+/* Deals with the background of the "changes" class */
 .changes::before {
     content: "";
     position: absolute;
@@ -482,3 +473,4 @@ footer {
     margin-left: 30px;
     font-size: 70%;
 }
+
