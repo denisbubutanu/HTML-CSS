@@ -30,6 +30,7 @@ figure {
   margin: 50px auto;
 }
 
+/* Used display: flex to separate the nav elemnts across the screen */
 nav ul {
   display: flex;
   justify-content: space-between;
@@ -73,10 +74,12 @@ section h2 {
   border: 2px solid black;
 }
 
+/* Removed the bullet-point */
 section ul {
   list-style: none;
 }
 
+/* Added a light-bulb before each list element instead of a bullet-point */
 section ul li::before {
   list-style: none;
   content: "💡";
