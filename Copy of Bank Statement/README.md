@@ -1,5 +1,5 @@
 ## This is my Copy of a Bank Statement folder where I will be storing my HTML and CSS code for a (fake) Bank Statement. 
 
-Through this task, I practiced using VSCode as my main IDE and pushing codee from it to my GitHub repositories. It also bought together a lot of HTML and CSS concepts I learned over time as well as teaching me entirely new ones such as SVGs (used for the oddly-shaped border around the table).
+Through this task, I practiced using VSCode as my main IDE and pushing code from it to my GitHub repositories. It also bought together a lot of HTML and CSS concepts I learned over time as well as teaching me entirely new ones such as SVGs (used for the oddly-shaped border around the table).
 
 The almost exclusive use of px units makes it a completely static page, which was a deliberate decision, as I wanted it to resemble a real bank statement opened in a pdf viewer as much as possible. I now realise that was a very limiting choice. I will eventually make a version where I will use other responsive units such as vh/vw, rem, em, etc. 
