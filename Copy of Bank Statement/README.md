@@ -1,3 +1,3 @@
 ## This is my Copy of a Bank Statement folder where I will be storing my HTML and CSS code for a (fake) Bank Statement. 
 
-Through this task, I practiced using VSCode as my main IDE and pushing codee from it to my GitHub repositories. It also bought together a lot of HTML and CSS concepts I learned over time as well as teaching me entirely new ones such as SVGs (used for the oddly-shaped border around 
+Through this task, I practiced using VSCode as my main IDE and pushing codee from it to my GitHub repositories. It also bought together a lot of HTML and CSS concepts I learned over time as well as teaching me entirely new ones such as SVGs (used for the oddly-shaped border around the table). 
