@@ -1,3 +1,6 @@
+/* Used display: flex below for the header to separate the <p> and <img> 
+elements to other sides of the page. */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -31,6 +34,9 @@ header {
     margin-top: 100px;
     margin-bottom: 70px
 }
+
+/* Used display: flex below to separate the text "Your FlexAccount" from "transactions"
+on different lines. */
 
 .flexi {
     display: flex;
@@ -74,7 +80,6 @@ html {
 
 .flex {
     display: flex;
-
 }
 
 main {
@@ -93,6 +98,11 @@ main {
 .blue-box {
     background-color: #E6E6FA;
 }
+
+/* Used display: flex below to better separate text and monetary values.
+Wanted it to look as similar to a real Nationwide
+bank statement as possible. Many of the following adjustments 
+will have been made to that end. */
 
 .multiple-lines {
     display: flex;
@@ -281,6 +291,9 @@ margin-bottom: -8px;
     justify-content: space-between;
 }
 
+/* Below code positions the section to the right of the table such that it also 
+blends in nicely with the information section. */
+
 .right-of-table {
     position: relative;
     left: 47px;
@@ -289,6 +302,8 @@ margin-bottom: -8px;
     padding-right: 7px;
     width: 52%;
 }
+
+/* Below code deals with the background of the "right-of-table" class. */
 
 .right-of-table::before {
     content: "";
@@ -318,6 +333,8 @@ margin-bottom: -8px;
     flex-direction: column;
 }
 
+/* Below code deals with the background of the "balance-details" class. */
+
 .balance-details::before {
     content: "";
     position: absolute;
@@ -333,6 +350,10 @@ margin-bottom: -8px;
     max-width: 250px;
     min-width: 250px;
 }
+
+/* The following few lines of code ensure the spacing between
+numbers and text is good as well as adding black bars beween 
+lines and emboldening some text. */
 
 .balance-details p {
     display: flex;
@@ -403,6 +424,8 @@ margin-bottom: -8px;
     margin-bottom: -10px;
 }
 
+/* Deals with the background of the "more-info" class. */
+
 .more-info::before {
     content: "";
     position: absolute;
@@ -436,6 +459,8 @@ margin-bottom: -8px;
     padding-bottom: 5px;
     margin-left: -25px
 }
+
+/* Deals with the background of the "changes" class. */
 
 .changes::before {
     content: "";
