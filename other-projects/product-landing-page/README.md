@@ -4,5 +4,4 @@ Here I was experimenting with grid layouts, media queries, video integration, et
 
 ## How to run?
 
-Using GitHub Pages, the following link should allow you to see the code in action: https://denisbubutanu.github.io/HTML-CSS-Projects/other-projects/product-landing-page
-/index.html
+Using GitHub Pages, the following link should allow you to see the code in action: https://denisbubutanu.github.io/HTML-CSS-Projects/other-projects/product-landing-page/index.html
